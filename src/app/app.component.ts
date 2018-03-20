@@ -7,4 +7,33 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Foods';
+
+    public cards: Array<any> = [
+      {text: 'Card 1'},
+      {text: 'Card 2'},
+      {text: 'Card 3'},
+      {text: 'Card 4'},
+      {text: 'Card 5'},
+      {text: 'Card 6'},
+      {text: 'Card 7'},
+      {text: 'Card 8'},
+      {text: 'Card 9'},
+      {text: 'Card 10'},
+    ];
+
+
+    public testcards: Array<any> = [
+      {text: 'test 1'},
+      {text: 'test 2'},
+      {text: 'test 3'},
+      {text: 'test 4'},
+      {text: 'test 5'},
+      {text: 'test 6'},
+      {text: 'test 7'},
+      {text: 'test 8'},
+      {text: 'test 9'},
+      {text: 'test 10'},
+    ];
+
+
 }
