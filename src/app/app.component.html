@@ -10,7 +10,7 @@
     </div>
     <div class="container-fluid text-center pb-5">
         <div class="row justify-content-start">
-            <app-new-card-input></app-new-card-input>
+            <app-new-card-input (onCardAdd)="addCard($event)"></app-new-card-input>
         </div>
     </div>
 

@@ -1,5 +1,9 @@
 <div class="card">
     <div class="card-block">
-        <input placeholder="Take a note..." class="form-control">
+
+        <form novalidate #form="ngForm">
+            <input placeholder="Take a note..." class="form-control" name="text" [(ngModel)]="newCard.text" required>
+        </form>
+
     </div>
 </div>

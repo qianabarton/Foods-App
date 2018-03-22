@@ -35,5 +35,10 @@ export class AppComponent {
       {text: 'test 10'},
     ];
 
+    addCard(cardText: string) {
+      console.log('add card: ' + cardText);
+      this.cards.push({text: cardText});
+    }
+
 
 }
